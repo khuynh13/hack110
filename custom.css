@@ -1,0 +1,81 @@
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+div.container-main {
+  padding: 0;
+}
+
+/* nav menu start */
+div.container-nav {
+  background-color: black;
+  /* height: 100vh; */
+  margin: 0;
+  padding: 0;
+}
+
+img.logo {
+  padding: 1em;
+}
+
+a.nav-link {
+  color: white;
+}
+
+a.active {
+  color: #9AC372;
+}
+
+a.nav-link:hover {
+  opacity: 0.5;
+}
+/* nav menu end */
+
+/* jumbotron start */
+div.jumbotron {
+  text-align: center;
+  background-image: url("./assets/cover_opacity-40.jpg");
+  background-size: cover;
+  height: 100vh;
+  padding: 2rem 0rem;
+  margin: 0;
+}
+
+div.panel-info {
+  display: flex;
+  background-color: black;
+}
+
+a.btn-demo-form {
+  background-color: #EF7E99;
+  border-color: #EF7E99;
+}
+
+a.btn-demo-form:hover {
+  background-color: rgb(240, 105, 136);
+  border-color: rgb(240, 105, 136);
+}
+
+div.panel-info {
+  /* margin-top: 10%; */
+  position: fixed;
+  bottom: 0px;
+}
+
+div.panel {
+  text-align: left;
+  color: white;
+  margin: 1em;
+}
+
+div.panel-left, div.panel-right {
+  width: 50%;
+}
+
+p.panel-text {
+  font-size: 2em;
+}
+/* jumbotron end */
