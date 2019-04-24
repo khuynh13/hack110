@@ -53,3 +53,20 @@ table.table {
   text-align: center;
   margin: 1em;
 }
+
+th {
+  background-color: black;
+  color: white;
+}
+
+td.pale {
+  background-color: #D9EAD4;
+}
+
+td.dark {
+  background-color: #77C436;
+}
+
+td.med {
+  background-color: #B7D6AA;
+}
