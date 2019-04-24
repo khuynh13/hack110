@@ -6,14 +6,13 @@ html, body {
 }
 
 div.container-main {
-  display: flex;
   padding: 0;
 }
 
 /* nav menu start */
 div.container-nav {
   background-color: black;
-  height: 100vh;
+  /* height: 100vh; */
   margin: 0;
   padding: 0;
 }
@@ -35,24 +34,22 @@ a.nav-link:hover {
 }
 /* nav menu end */
 
-/* banner header start */
+div.container-content {
+  padding-right: 0;
+}
+
 div.banner {
   background-image: url("./assets/cover_opacity-40.jpg");
-  background-size: cover;
-  height: 30vh;
-  width: 100vw;
+  background-size: cover; 
+  padding: 0;
 }
 
 h1.site-title {
   text-align: center;
+  margin: 2em;
 }
-/* banner header end */
 
-/* Schedule table start */
 table.table {
-  width: auto;
-}
-tr {
   text-align: center;
+  margin: 1em;
 }
-/* Schedule table end */
