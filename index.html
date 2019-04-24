@@ -16,43 +16,69 @@
  <body>
     <div class="container-fluid container-main">
       <div class="row">
-          <div class="container container-nav col-sm-2">
-            <img class="logo" src="./assets/s19-logo-concepts-1.png" alt="logo">
-            <nav class="nav flex-column">
-              <a class="nav-link active" href="./index.html">Welcome</a>
-              <a class="nav-link" href="./schedule.html">Schedule</a>
-              <a class="nav-link" href="#!">Project Guidelines</a>
-              <a class="nav-link" href="#!">Project Ideas</a>
-              <a class="nav-link" href="#!">FAQs</a>
-              <a class="nav-link" href="#!">Links/Resources</a>
-            </nav>            
-          </div>
-          <div class="row container-content col-lg-10 col-md-12">
-
-            <div class="jumbotron col-sm-12">
-              <h1 class="display-4">Hack110 | Spring 2019</h1>
-              <p class="lead">April 12th @7 PM<br>
-                              Sitterson Hall<br>
-                              Submit projects by 6:30 AM</p>
-              <hr class="my-2">
-              <p class="lead" id="area-demo-form">
-                <a class="btn btn-primary btn-lg btn-demo-form" href="#!" role="button">Demo Submission Form</a>
-              </p>
-              <div class="panel-info">
-                <div class="panel panel-left">
-                  <p class="panel-text">Text "@kra-cle" to 81010 for text updates</p>
-                  <img src="./assets/sn-floorplan.png" alt="floorplan" width="414" height="270">
-                </div>
-                <div class="panel panel-right">
-                  <p class="panel-text">Come to the help desk and ask for safewalk if you do not want to walk home alone at night</p>
-                  <img src="./assets/sn-map.png" alt="map" width="414" height="270">
-                </div>
+        <div class="container container-nav-mobile col-sm-12">
+          <nav class="navbar navbar-dark">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link active" href="./index.html">Welcome<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./schedule.html">Schedule</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Project Guidelines</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Project Ideas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">FAQs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Links/Resources</a>
+                  </li>
+                </ul>
+              </div>
+          </nav>
+        </div> 
+        <div class="container container-nav col-sm-2">
+          <img class="logo" src="./assets/s19-logo-concepts-1.png" alt="logo">
+          <nav class="nav flex-column">
+            <a class="nav-link active" href="./index.html">Welcome</a>
+            <a class="nav-link" href="./schedule.html">Schedule</a>
+            <a class="nav-link" href="#!">Project Guidelines</a>
+            <a class="nav-link" href="#!">Project Ideas</a>
+            <a class="nav-link" href="#!">FAQs</a>
+            <a class="nav-link" href="#!">Links/Resources</a>
+          </nav>            
+        </div>
+        <div class="row container-content col-lg-10 col-md-12">
+          <div class="jumbotron col-sm-12">
+            <h1 class="display-4">Hack110 | Spring 2019</h1>
+            <p class="lead">April 12th @7 PM<br>
+                            Sitterson Hall<br>
+                            Submit projects by 6:30 AM</p>
+            <hr class="my-2">
+            <p class="lead" id="area-demo-form">
+              <a class="btn btn-primary btn-lg btn-demo-form" href="#!" role="button">Demo Submission Form</a>
+            </p>
+            <div class="panel-info">
+              <div class="panel panel-left">
+                <p class="panel-text">Text "@kra-cle" to 81010 for text updates</p>
+                <img src="./assets/sn-floorplan.png" alt="floorplan" width="414" height="270">
+              </div>
+              <div class="panel panel-right">
+                <p class="panel-text">Come to the help desk and ask for safewalk if you do not want to walk home alone at night</p>
+                <img src="./assets/sn-map.png" alt="map" width="414" height="270">
               </div>
             </div>
           </div>
+        </div>
       </div>
-      
-             
     </div>
 
     <!-- NECESSARY <script> LINKS. The three <script> links below add jQuery, popper.js, and Bootstrap 4 JavaScript. These are libraries of scripts that are necessary to make Bootstrap's interactive and animated components work (e.g., dropdown menus, buttons, alerts, carousels, collapsing navbars and content areas, modals, popups, tooltips, etc). These three <script> links MUST appear in THIS ORDER; this is because both popper.js and the Bootstrap scripts rely on jQuery to work, so jQuery must load into your page first. We add these links at the bottom of the <body> element instead of in the <head> element so the scripts won't be loaded into your site until they're needed, which helps with your site's speed and functionality. -->

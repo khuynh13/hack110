@@ -9,7 +9,29 @@ div.container-main {
   padding: 0;
 }
 
-/* nav menu start */
+/* mobile nav menu start */
+div.container-nav-mobile {
+  display: none;
+}
+
+nav.navbar {
+  background-color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  color: #9AC372;
+}
+
+ul.navbar-nav li.nav-item {
+  font-size: 2em;
+}
+/* mobile nav menu end */
+
+/* desktop nav menu start */
 div.container-nav {
   background-color: black;
   /* height: 100vh; */
@@ -32,7 +54,7 @@ a.active {
 a.nav-link:hover {
   opacity: 0.5;
 }
-/* nav menu end */
+/* desktop nav menu end */
 
 div.container-content { padding: 0; }
 
@@ -86,7 +108,6 @@ p.panel-text {
 }
 /* jumbotron end */
 
-
 @media only screen and (max-width: 1050px) {
   div.jumbotron {
     height: auto;
@@ -108,6 +129,10 @@ p.panel-text {
 @media only screen and (max-width: 991px) {
   div.container-nav {
     display: none;
+  }
+
+  div.container-nav-mobile {
+    display: inline-block;
   }
 }
 

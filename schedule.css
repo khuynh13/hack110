@@ -9,6 +9,28 @@ div.container-main {
   padding: 0;
 }
 
+/* mobile nav menu start */
+div.container-nav-mobile {
+  display: none;
+}
+
+nav.navbar {
+  background-color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  color: #9AC372;
+}
+
+ul.navbar-nav li.nav-item {
+  font-size: 2em;
+}
+/* mobile nav menu end */
+
 /* nav menu start */
 div.container-nav {
   background-color: black;
@@ -69,4 +91,18 @@ td.dark {
 
 td.med {
   background-color: #B7D6AA;
+}
+
+@media only screen and (max-width: 1050px) {
+
+}
+
+@media only screen and (max-width: 991px) {
+  div.container-nav {
+    display: none;
+  }
+
+  div.container-nav-mobile {
+    display: inline-block;
+  }
 }

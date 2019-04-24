@@ -11,22 +11,51 @@
     <!-- FontAwesome for search icon -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <!-- Link to your custom stylesheet. Any non-Bootstrap styles you create go in this stylesheet. You can create new classes and IDs, or add new rules for classes that already exist in Bootstrap. Any rules you put in your custom stylesheet will override any styling applied to any elements of the same name in Bootstrap, as long as your custom stylesheet link comes AFTER your Bootstrap CSS link, the way it does here. -->
-    <link rel="stylesheet" type="text/css" href="template.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
  </head>
  <body>
     <div class="container-fluid container-main">
       <div class="row">
-          <div class="container container-nav col-sm-2">
-            <img class="logo" src="./assets/s19-logo-concepts-1.png" alt="logo">
-            <nav class="nav flex-column">
-              <a class="nav-link" href="#!">Welcome</a>
-              <a class="nav-link" href="#!">Schedule</a>
-              <a class="nav-link" href="#!">Project Guidelines</a>
-              <a class="nav-link" href="#!">Project Ideas</a>
-              <a class="nav-link" href="#!">FAQs</a>
-              <a class="nav-link" href="#!">Links/Resources</a>
-            </nav>            
-          </div>
+        <div class="container container-nav-mobile col-sm-12">
+          <nav class="navbar navbar-dark">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link active" href="./index.html">Welcome<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./schedule.html">Schedule</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Project Guidelines</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Project Ideas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">FAQs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Links/Resources</a>
+                  </li>
+                </ul>
+              </div>
+          </nav>
+        </div> 
+        <div class="container container-nav col-sm-2">
+          <img class="logo" src="./assets/s19-logo-concepts-1.png" alt="logo">
+          <nav class="nav flex-column">
+            <a class="nav-link active" href="./index.html">Welcome</a>
+            <a class="nav-link" href="./schedule.html">Schedule</a>
+            <a class="nav-link" href="#!">Project Guidelines</a>
+            <a class="nav-link" href="#!">Project Ideas</a>
+            <a class="nav-link" href="#!">FAQs</a>
+            <a class="nav-link" href="#!">Links/Resources</a>
+          </nav>            
+        </div>
       </div>
     </div>
 
