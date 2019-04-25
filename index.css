@@ -111,6 +111,10 @@ div.panel img {
   max-width: 100%;
   height: auto;
 }
+
+h1.display-4 {
+  margin: 1em;
+}
 /* jumbotron end */
 
 @media only screen and (max-width: 1050px) {
@@ -144,6 +148,5 @@ div.panel img {
 @media only screen and (max-width: 800px) {
   div.panel-info {
     padding: 2em 2em;
-    align-items: flex-start;
   }
 }
