@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <!-- a Google font -->
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
     <!-- FontAwesome for search icon -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <!-- Link to your custom stylesheet. Any non-Bootstrap styles you create go in this stylesheet. You can create new classes and IDs, or add new rules for classes that already exist in Bootstrap. Any rules you put in your custom stylesheet will override any styling applied to any elements of the same name in Bootstrap, as long as your custom stylesheet link comes AFTER your Bootstrap CSS link, the way it does here. -->
@@ -59,21 +60,31 @@
         <div class="row container-content col-lg-10 col-md-12">
           <div class="jumbotron col-sm-12">
             <h1 class="display-4">Hack110 | Spring 2019</h1>
-            <p class="lead">April 12th @7 PM<br>
+            <p class="lead location">April 12th @7 PM<br>
                             Sitterson Hall<br>
-                            Submit projects by 6:30 AM</p>
+                            Submit projects by 6:30 AM</p> 
             <hr class="my-2">
             <p class="lead" id="area-demo-form">
-              <a class="btn btn-primary btn-lg btn-demo-form" href="#!" role="button">Demo Submission Form</a>
+              <a class="btn btn-primary btn-lg btn-demo-form" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScMXCltDAxYDfTqxBV6vS5fdLWfPNZXuyUwD0WrfobaPiQc6g/viewform" role="button">Project Submission</a>
             </p>
             <div class="panel-info">
               <div class="panel panel-left">
-                <p class="panel-text">Text "@kra-cle" to 81010 for text updates</p>
                 <img src="./assets/sn-floorplan.png" alt="floorplan" width="414" height="270">
+                <img src="./assets/sn-map.png" alt="map" width="414" height="270">
               </div>
               <div class="panel panel-right">
-                <p class="panel-text">Come to the help desk and ask for safewalk if you do not want to walk home alone at night</p>
-                <img src="./assets/sn-map.png" alt="map" width="414" height="270">
+                <div class="alert alert-success" role="alert">
+                  <h2 class="alert-heading">Get updates!</h2>
+                  Text "@kra-cle" to 81010 for text updates.
+                </div>
+                <div class="alert alert-success" role="alert">
+                  <h2 class="alert-heading">Heading home?</h2>
+                  Come to the help desk and ask for "Safe Walk". Two TAs will walk or drive you home.
+                </div>
+                <div class="alert alert-success" role="alert">
+                  <h2 class="alert-heading">Working with a partner?</h2>
+                  Checkout <a target="_blank" href="https://code.visualstudio.com/blogs/2017/11/15/live-share">Visual Studio Live Share</a>
+                </div>
               </div>
             </div>
           </div>
