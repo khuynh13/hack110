@@ -1,5 +1,5 @@
 html, body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Work Sans', sans-serif;
   width: 100%;
   overflow-x: hidden;
   margin: 0;
@@ -36,7 +36,7 @@ div.container-nav {
   background-color: black;
   /* height: 100vh; */
   margin: 0;
-  padding: 0;
+  padding: 1em;
 }
 
 img.logo {
@@ -61,25 +61,38 @@ div.container-content { padding: 0; }
 /* jumbotron start */
 div.jumbotron {
   text-align: center;
-  background-image: url("./assets/cover_opacity-40.jpg");
+  background-image: url("./assets/cover_home_opacity-80.jpg");
   background-size: cover;
   height: 100vh;
   padding: 2rem 0rem;
   margin: 0;
 }
 
+h1.display-4 {
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  color: white;
+}
+
+p.location {
+  font-size: 2em;
+  color: white;
+}
+
 div.panel-info {
   display: flex;
-  background-color: black;
+  /* background-color: black; */
 }
 
 a.btn-demo-form {
   background-color: #EF7E99;
   border-color: #EF7E99;
+  /* box-shadow: 10px 10px 8px #373637; */
 }
 
 p#area-demo-form {
   margin-bottom: 2em;
+  animation: 1.5s infinite alternate-reverse grow;
 }
 
 a.btn-demo-form:hover {
@@ -87,8 +100,16 @@ a.btn-demo-form:hover {
   border-color: rgb(240, 105, 136);
 }
 
+@keyframes grow {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.25);
+  }
+}
+
 div.panel-info {
-  /* margin-top: 10%; */
   position: fixed;
   bottom: 0px;
 }
@@ -103,6 +124,18 @@ div.panel-left, div.panel-right {
   width: 50%;
 }
 
+div.panel-left { 
+  text-align: center;
+}
+
+div.panel-right {
+  padding: 0.5em;
+}
+
+div.alert {
+  box-shadow: 10px 10px 8px #373637;
+}
+
 p.panel-text {
   font-size: 2em;
 }
@@ -110,10 +143,13 @@ p.panel-text {
 div.panel img {
   max-width: 100%;
   height: auto;
+  margin: 0.5em;
+  box-shadow: 10px 10px 8px #373637;
+  transition: all .2s ease-in-out;
 }
 
-h1.display-4 {
-  margin: 1em;
+div.panel img:hover {
+  transform: scale(1.1);
 }
 /* jumbotron end */
 
@@ -129,6 +165,9 @@ h1.display-4 {
     position: static;
     align-items: center
   }
+
+  div.panel-right { order: 1; }
+  div.panel-left { order: 2; }
 
   p.panel-text {
     font-size: 1.5em;
@@ -147,6 +186,6 @@ h1.display-4 {
 
 @media only screen and (max-width: 800px) {
   div.panel-info {
-    padding: 2em 2em;
+    /* padding: 2em 2em; */
   }
 }
