@@ -38,7 +38,7 @@ div.container-nav {
   background-color: black;
   /* height: 100vh; */
   margin: 0;
-  padding: 0;
+  padding: 1em;
 }
 
 img.logo {
