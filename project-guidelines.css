@@ -1,8 +1,10 @@
 html, body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Work Sans', sans-serif;
   width: 100%;
   overflow-x: hidden;
   margin: 0;
+  background-image: url("./assets/cover_guidelines_opacity-40.jpg");
+  background-size: cover; 
 }
 
 div.container-main {
@@ -57,14 +59,14 @@ a.nav-link:hover {
 /* nav menu end */
 
 div.banner {
-  background-image: url("./assets/cover_guidelines_opacity-40.jpg");
-  background-size: cover; 
   padding: 0;
 }
 
 h1.site-title {
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
   text-align: center;
-  margin: 2em;
+  margin: 1.25em;
 }
 
 div.container-content {
@@ -73,6 +75,17 @@ div.container-content {
 
 div.container-text {
   padding: 1.5em;
+}
+div.card {
+  margin: 1em;
+}
+
+div.card:nth-child(odd) {
+  background-color: #D9EAD4;
+}
+
+div.card:nth-child(even) {
+  background-color: #B7D6AA;
 }
 
 blockquote, ul { 
