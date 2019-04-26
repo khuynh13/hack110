@@ -1,8 +1,10 @@
 html, body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Work Sans', sans-serif;
   width: 100%;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   margin: 0;
+  background-image: url(./assets/cover_resources_opacity-40_cropped.jpg);
+  background-size: cover;
 }
 
 div.container-main {
@@ -57,13 +59,13 @@ a.nav-link:hover {
 /* nav menu end */
 
 h1.site-title {
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
   text-align: center;
-  margin: 2em;
+  margin: 1.25em;
 }
 
 div.banner {
-  background-image: url(./assets/cover_resources_opacity-40_cropped.jpg);
-  background-size: cover;
   padding: 0;
 }
 
@@ -102,12 +104,19 @@ div.link-pres {
 }
 
 div.container-cards {
-  background-color: black;
   padding: 3em;
 }
 
 div.card {
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
+}
+
+div.card:nth-child(even) {
+  background-color: #D9EAD4;
+}
+
+div.card:nth-child(odd) {
+  background-color: #B7D6AA;
 }
 
 @media only screen and (max-width: 991px) {
