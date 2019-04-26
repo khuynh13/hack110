@@ -63,6 +63,7 @@ div.jumbotron {
   text-align: center;
   background-image: url("./assets/cover_home_opacity-80_reduced.jpg");
   background-size: cover;
+  border-radius: 0;
   height: 100vh;
   padding: 2rem 0rem;
   margin: 0;
