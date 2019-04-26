@@ -45,7 +45,7 @@
                 </ul>
               </div>
           </nav>
-        </div> 
+        </div>
         <div class="container container-nav col-sm-2">
           <img class="logo" src="./assets/s19-logo-concepts-1.png" alt="logo">
           <nav class="nav flex-column">
@@ -55,7 +55,7 @@
             <a class="nav-link" href="./project-ideas.html">Project Ideas</a>
             <a class="nav-link" href="./faqs.html">FAQs</a>
             <a class="nav-link" href="./resources.html">Links/Resources</a>
-          </nav>            
+          </nav>
         </div>
         <div class="row container-content col-lg-10 col-md-12">
           <div class="container-fluid banner">
@@ -65,24 +65,39 @@
               </div>
             </header>
           </div>
-          <div class="container-text">
-            <div class="card">
-              <div class="card-body">
-                <h3 class="card-title"><b>Two Options</b></h3>
-                <p class="card-text">
-                  <blockquote>
-                    The default option is to complete <b>Problem Set 6 - TBA</b>.<br><br>
-                    <b>The HACK110 Option requires attending the hackathon and choosing your own final project to create</b>. To choose this option you must attend the hackathon and get your project opt-in code before 11:59pm (instructions following). <b>Taking on a custom project is far more challenging than the default problem set will be!</b><br><br>
-                    HACK110 projects are *not* due until LDOC. The purpose of HACK110 is to make significant progress and get a running head start on your final project. TA assistance will be exclusively available during the hackathon (there is no guarantee that the TAs in office hours can help you).<br><br>
-                  </blockquote>
-                  <p>Want to do both? That's encouraged, too! To keep things fair for all students, there's no extra credit involved for completing both. Only extra street cred.</p><br>
-                  <p><b>MAXIMUM TEAM SIZE: 2 people</b></p>
-                </p>
+          <div class = "container">
+
+     <div id = "accordion">
+        <div class = "card">
+           <div class = "card-header">
+              <a class = "card-link" data-toggle = "collapse" href = "#collapseOne">
+                              <h3 class="card-title"><b>What are my two options?</b></h3>
+              </a>
+           </div>
+
+           <div id = "collapseOne" class = "collapse show" data-parent = "#accordion">
+              <div class = "card-body">                <p class="card-text">
+                                <blockquote>
+                                  The default option is to complete <b>Problem Set 6 - TBA</b>.<br><br>
+                                  <b>The HACK110 Option requires attending the hackathon and choosing your own final project to create</b>. To choose this option you must attend the hackathon and get your project opt-in code before 11:59pm (instructions following). <b>Taking on a custom project is far more challenging than the default problem set will be!</b><br><br>
+                                  HACK110 projects are *not* due until LDOC. The purpose of HACK110 is to make significant progress and get a running head start on your final project. TA assistance will be exclusively available during the hackathon (there is no guarantee that the TAs in office hours can help you).<br><br>
+                                </blockquote>
+                                <p>Want to do both? That's encouraged, too! To keep things fair for all students, there's no extra credit involved for completing both. Only extra street cred.</p><br>
+                                <p><b>MAXIMUM TEAM SIZE: 2 people</b></p>
+                              </p>
               </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
+           </div>
+        </div>
+
+        <div class = "card">
+           <div class = "card-header">
+              <a class = "collapsed card-link" data-toggle = "collapse" href = "#collapseTwo">
                 <h3 class="card-title"><b>Steps for the Hackathon Final Project</b></h3>
+              </a>
+           </div>
+
+           <div id = "collapseTwo" class = "collapse" data-parent = "#accordion">
+              <div class = "card-body">
                 <p class="card-text">
                   <blockquote>
                     Attend either the Game or Web Dev Workshop at 8pm! - This will determine what the nature of your project will be.<br>
@@ -93,10 +108,18 @@
                   </blockquote>
                 </p>
               </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <h3 class="card-title"><b>Project Requirements</b></h3>
+           </div>
+        </div>
+
+        <div class = "card">
+           <div class = "card-header">
+              <a class = "collapsed card-link" data-toggle = "collapse" href = "#collapseThree">
+  <h3 class="card-title"><b>Project Requirements</b></h3>
+  </a>
+           </div>
+
+           <div id = "collapseThree" class = "collapse" data-parent = "#accordion">
+              <div class = "card-body">
                 <p class="card-text">
                   <blockquote>
                     Your project must be an HTML/CSS/TypeScript project that gets published to apps.introcs.com<br>
@@ -117,10 +140,14 @@
                   <p>Later on, you will have access to a form for your final project submission. It will be a form for letting us know the URL of your project's page. Only one submission (and one Spec Page page) on this form will be required per team, but each of you is encouraged to work through your code and publish to your own account.</p>
                   <p>Not meeting your complete vision for the original project is completely acceptable - visions evolve!  But you should have code that runs and represents a body of work that demonstrates 12+ hours of effort.</p>
                 </p>
-              </div>
-            </div>
-          </div>
-        </div>  
+               </div>
+           </div>
+        </div>
+
+     </div>
+  </div>
+
+        </div>
       </div>
     </div>
 
