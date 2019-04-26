@@ -61,7 +61,7 @@ div.container-content { padding: 0; }
 /* jumbotron start */
 div.jumbotron {
   text-align: center;
-  background-image: url("./assets/cover_home_opacity-80.jpg");
+  background-image: url("./assets/cover_home_opacity-80_reduced.jpg");
   background-size: cover;
   height: 100vh;
   padding: 2rem 0rem;
@@ -166,8 +166,16 @@ div.panel img:hover {
     align-items: center
   }
 
-  div.panel-right { order: 1; }
-  div.panel-left { order: 2; }
+  div.panel-right { 
+    order: 1; 
+    width: 100%;
+  }
+
+  div.panel-left { 
+    order: 2; 
+    width: 100%;
+    padding-right: 1em;
+  }
 
   p.panel-text {
     font-size: 1.5em;
@@ -184,8 +192,12 @@ div.panel img:hover {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
   div.panel-info {
     /* padding: 2em 2em; */
+  }
+
+  div.jumbotron {
+    padding-left: 2em;
   }
 }
