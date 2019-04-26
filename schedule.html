@@ -45,7 +45,7 @@
                 </ul>
               </div>
           </nav>
-        </div> 
+        </div>
         <div class="container container-nav col-sm-2">
           <img class="logo" src="./assets/s19-logo-concepts-1.png" alt="logo">
           <nav class="nav flex-column">
@@ -55,13 +55,14 @@
             <a class="nav-link" href="./project-ideas.html">Project Ideas</a>
             <a class="nav-link" href="./faqs.html">FAQs</a>
             <a class="nav-link" href="./resources.html">Links/Resources</a>
-          </nav>            
+          </nav>
         </div>
         <div class="row container-content col-lg-10 col-md-12">
           <div class="container-fluid banner">
             <header class="site-header">
               <div class="">
                 <h1 class="site-title">Schedule</h1>
+                <h4 class="site-title"> Click on the blue links for more info</h4>
               </div>
             </header>
           </div>
@@ -94,7 +95,10 @@
                 <td class="dark">SN011</td>
               </tr>
               <tr>
-                <td class="dark">BYOG - Build Your Own Game</td>
+                <td class="dark">
+                  <a href="" data-toggle="modal" data-target="#gameModal">
+                  BYOG- Build Your Own Game
+                </a></td>
                 <td class="dark">SN014</td>
               </tr>
               <tr>
@@ -112,29 +116,38 @@
               </tr>
               <tr>
                 <th scope="row" rowspan="2">10 - 10:30pm</th>
-                <td class="dark">TypeScript to Java: For the Future 401-er</td>
+                <td class="dark">
+                  <a href="" data-toggle="modal" data-target="#tsModal">
+              TypeScript to Java: For the Future 401-er
+                </a></td>
                 <td class="dark">SN014</td>
               </tr>
               <tr>
-                <td class="dark">Intro to GitHub</td>
+                <td class="dark">      <a href="" data-toggle="modal" data-target="#githubModal">
+                    Intro to Github
+                    </a></td>
                 <td class="dark">SN011</td>
               </tr>
               <tr>
                 <th scope="row" rowspan="2">10:40 - 11:10pm</th>
-                <td class="dark">Things I Wish I Knew Before Declaring CS</td>
+
+                <td class="dark"><a href="" data-toggle="modal" data-target="#thingsModal">Things I Wish I Knew Before Declaring CS  </a></td>
+
                 <td class="dark">SN011</td>
               </tr>
               <tr>
-                <td class="dark">Inclusive Design & Accessibility in Game/Web Design</td>
+                <td class="dark"><a href="" data-toggle="modal" data-target="#accessibilityModal">Inclusive Design & Accessibility in Game/Web Design
+</a>
+                </td>
                 <td class="dark">SN014</td>
               </tr>
               <tr>
                 <th scope="row" rowspan="2">11:20 - 11:50pm</th>
-                <td class="dark">What am I Getting Into? Internships & Jobs in CS</td>
+                <td class="dark"><a href="" data-toggle="modal" data-target="#sweModal">What am I Getting Into? Internships & Jobs in CS</a></td>
                 <td class="dark">SN011</td>
               </tr>
               <tr>
-                <td class="dark">Under the Hood of an IOS Application</td>
+                <td class="dark"><a href="" data-toggle="modal" data-target="#iosModal">Under the Hood of an IOS Application</a></td>
                 <td class="dark">SN014</td>
               </tr>
               <tr>
@@ -187,6 +200,157 @@
             </tbody>
           </table>
         </div>
+        <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="gameModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="gameModalLabel">BYOG Descrption</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+    <p>Come learn how to use Pixi.js to make awesome interactive games you can share with your family and friends!</p>
+      </div>
+      <div class="modal-footer">
+        <a href="https://docs.google.com/presentation/d/1It8oR7d_MB3E918_PJg7J5zPTDqlw7uBXl631oCGavE/edit" class="btn btn-info" role="button">Presentation Link</a>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="tsModal" tabindex="-1" role="dialog" aria-labelledby="tsModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="tsModalLabel">TS to Java Workshop</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Taking 401 next semester, or just interested in learning languages outside of TypeScript? Come learn the basics of Java and show off your new skills with a fun hands-on!</p>
+
+      </div>
+      <div class="modal-footer">
+        <a href="https://drive.google.com/open?id=1ZUWUVCujmy4Xp90NlVzm_N1x8e7V_uRe6nBw1d3ulk4" class="btn btn-info" role="button">Presentation Link</a>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="githubModal" tabindex="-1" role="dialog" aria-labelledby="githubModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="githubModalLabel">Github Workshop</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Learn how to code collaboratively with others! GitHub, think Google Docs but for coding, is a widely used solution for version control and collaboration, which you can use to your advantage in your own personal projects, group hacking, and even industry in the future.</p>
+
+      </div>
+      <div class="modal-footer">
+        <a href="https://drive.google.com/open?id=1IuOvgetWgEqPwBvhdYeTrdzAZmzugW2kwOD4RQULn1Y"class="btn btn-info" role="button">Presentation Link</a>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="thingsModal" tabindex="-1" role="dialog" aria-labelledby="thingsModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="thingsModalLabel">Things I Wish I Knew Workshop  </a></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Get a sneak-peek of what it’s like to be in the CS major, and learn how to never get locked out of Sitterson again.</p>
+
+      </div>
+      <div class="modal-footer">
+        <a href="https://docs.google.com/presentation/d/1JlgcVVQokkSkqWihZR4cbcTUctF0g8vC99U1tMjeqIs/edit?usp=sharing" class="btn btn-info" role="button">Presentation Link</a>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="iosModal" tabindex="-1" role="dialog" aria-labelledby="iosModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="iosModalLabel">iOS Workshop  </a></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Discover what goes on in an iOS app including buttons and their events, transitioning between screens, and the MVC design pattern (sneak peak for COMP 401!)</p>
+
+      </div>
+      <div class="modal-footer">
+        <a href="https://drive.google.com/open?id=1lo4bP7hGCGsWmaQnQEVI41AIa5u14iz8"class="btn btn-info" role="button">Presentation Link</a>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="accessibilityModal" tabindex="-1" role="dialog" aria-labelledby="accessibilityModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="accessibilityModalLabel">Inclusive Design/Accessibility  </a></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>When you make something for people, wouldn’t it be nice if it worked for all people? Come find out about inclusive design and techniques to make games and websites that work for people of all walks of life!</p>
+
+      </div>
+      <div class="modal-footer">
+        <a href="https://docs.google.com/presentation/d/1pTopkd5dbl8-odpn568iZ-Gmam9lonRfP003_l9v0aQ/edit?usp=sharing" class="btn btn-info" role="button">Presentation Link</a>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="sweModal" tabindex="-1" role="dialog" aria-labelledby="sweModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="sweModalLabel">Things I Wish I Knew Workshop  </a></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Not every CS internship is software engineering! Learn about your options and get some advice from people who have successfully worked through the process before.</p>
+
+      </div>
+      <div class="modal-footer">
+        <a href="https://docs.google.com/presentation/d/1sOs7UNbX4wvzCgzYt9dAHl64SD4qDBkVJWLBPyZGif4/edit?usp=sharing"class="btn btn-info" role="button">Presentation Link</a>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
       </div>
     </div>
 
