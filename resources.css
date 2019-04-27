@@ -3,7 +3,7 @@ html, body {
   width: 100%;
   overflow-x: hidden;
   margin: 0;
-  background-image: url(./assets/cover_resources_opacity-40_cropped.jpg);
+  background-image: url(./assets/cover_resources_opacity-40-min.jpg);
   background-size: cover;
 }
 
