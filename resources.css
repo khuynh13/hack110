@@ -91,6 +91,8 @@ div.container-content {
   background-color: #9AC372;
   border-color: #9AC372;
   color: black;
+  height: 100%;
+  white-space: pre-line;
 }
 
 .btn-secondary:hover {
