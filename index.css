@@ -113,12 +113,6 @@ div.panel {
 
 div.panel-left {
   width: 50%;
-<<<<<<< HEAD
-}
-
-div.panel-left {
-=======
->>>>>>> 25075cb654b43d6ea9b68d6c1d904ef7951196c6
   text-align: center;
 }
 
@@ -161,15 +155,9 @@ div.panel img:hover {
     align-items: center
   }
 
-<<<<<<< HEAD
   div.panel-right {
     order: 1;
-    width: 100%;
-=======
-  div.panel-right { 
-    order: 1; 
     width: 90%;
->>>>>>> 25075cb654b43d6ea9b68d6c1d904ef7951196c6
   }
 
   div.panel-left {
