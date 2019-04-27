@@ -92,6 +92,12 @@ div.card:nth-child(even) {
   background-color: #B7D6AA;
 }
 
+div.container-cards {
+  min-height: 100vh;
+}
+
+a.card-link { color: black; }
+
 blockquote, ul { 
   display: block;
   margin-top: 1em;
