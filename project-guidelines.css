@@ -90,6 +90,7 @@ div.card:nth-child(even) {
 
 div.container-cards {
   min-height: 100vh;
+  padding-right: 0;
 }
 
 a.card-link { color: black; }
