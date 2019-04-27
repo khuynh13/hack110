@@ -74,7 +74,12 @@ div.banner {
 }
 
 div.container-cards {
+  min-width: 100%;
   padding: 3em;
+}
+
+a.card-link {
+  color: black;
 }
 
 div.card:nth-child(odd) {

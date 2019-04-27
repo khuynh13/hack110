@@ -64,7 +64,7 @@ div.jumbotron {
   background-image: url("./assets/cover_home_opacity-80-min.jpg");
   background-size: cover;
   border-radius: 0;
-  height: 100vh;
+  min-height: 100vh;
   padding: 2rem 0rem;
   margin: 0;
 }
@@ -82,7 +82,7 @@ p.location {
 
 div.panel-info {
   display: flex;
-  /* background-color: black; */
+  padding: 2em;
 }
 
 a.btn-demo-form {
@@ -91,8 +91,7 @@ a.btn-demo-form {
   /* box-shadow: 10px 10px 8px #373637; */
 }
 
-p#area-demo-form {
-  margin-bottom: 2em;
+div.link-submission {
   animation: 1.5s infinite alternate-reverse grow;
 }
 
@@ -102,17 +101,8 @@ a.btn-demo-form:hover {
 }
 
 @keyframes grow {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.25);
-  }
-}
-
-div.panel-info {
-  position: fixed;
-  bottom: 0px;
+  from { transform: scale(1); }
+  to { transform: scale(1.15); }
 }
 
 div.panel {
@@ -121,15 +111,19 @@ div.panel {
   margin: 1em;
 }
 
-div.panel-left, div.panel-right {
+div.panel-left {
   width: 50%;
+<<<<<<< HEAD
 }
 
 div.panel-left {
+=======
+>>>>>>> 25075cb654b43d6ea9b68d6c1d904ef7951196c6
   text-align: center;
 }
 
 div.panel-right {
+  width: 40%;
   padding: 0.5em;
 }
 
@@ -167,9 +161,15 @@ div.panel img:hover {
     align-items: center
   }
 
+<<<<<<< HEAD
   div.panel-right {
     order: 1;
     width: 100%;
+=======
+  div.panel-right { 
+    order: 1; 
+    width: 90%;
+>>>>>>> 25075cb654b43d6ea9b68d6c1d904ef7951196c6
   }
 
   div.panel-left {
@@ -194,10 +194,6 @@ div.panel img:hover {
 }
 
 @media only screen and (max-width: 700px) {
-  div.panel-info {
-    /* padding: 2em 2em; */
-  }
-
   div.jumbotron {
     padding-left: 2em;
   }

@@ -72,6 +72,7 @@ h1.site-title {
   text-align: center;
   margin: 1.25em;
 }
+
 h4.site-title{
   font-family: 'Poiret One', cursive;
   font-weight: bold;
@@ -79,9 +80,13 @@ h4.site-title{
   margin: 1.25em;
 }
 
+div.container-table {
+  padding: 1em;
+}
+
 table.table {
   text-align: center;
-  margin: 1em;
+  /* margin: 1em; */
 }
 
 th {
@@ -99,6 +104,18 @@ td.dark {
 
 td.med {
   background-color: #B7D6AA;
+}
+
+a.btn-info {
+  color: black;
+  background-color: #B1CFA5;
+  border-color: #B1CFA5;
+}
+
+a.btn-info:hover {
+  color: black;
+  background-color: rgb(145, 184, 129);
+  border-color: rgb(145, 184, 129);
 }
 
 @media only screen and (max-width: 1050px) {
