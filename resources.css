@@ -7,12 +7,12 @@ html, body {
   background-size: cover;
 }
 
-div.container-main {
+section.container-main {
   padding: 0;
 }
 
 /* mobile nav menu start */
-div.container-nav-mobile {
+section.container-nav-mobile {
   display: none;
 }
 
@@ -34,7 +34,7 @@ ul.navbar-nav li.nav-item {
 /* mobile nav menu end */
 
 /* nav menu start */
-div.container-nav {
+section.container-nav {
   background-color: black;
   margin: 0;
   padding: 1em;
@@ -68,7 +68,7 @@ div.banner {
   padding: 0;
 }
 
-div.container-content {
+section.container-content {
   padding-right: 0;
 }
 
@@ -106,7 +106,7 @@ div.link-pres {
   margin: 1em;
 }
 
-div.container-cards {
+section.container-cards {
   padding: 3em;
 }
 
@@ -123,11 +123,11 @@ div.card:nth-child(odd) {
 }
 
 @media only screen and (max-width: 991px) {
-  div.container-nav {
+  section.container-nav {
     display: none;
   }
 
-  div.container-nav-mobile {
+  section.container-nav-mobile {
     display: inline-block;
   }
 }
