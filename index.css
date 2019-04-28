@@ -5,12 +5,12 @@ html, body {
   margin: 0;
 }
 
-div.container-main {
+section.container-main {
   padding: 0;
 }
 
 /* mobile nav menu start */
-div.container-nav-mobile {
+section.container-nav-mobile {
   display: none;
 }
 
@@ -32,7 +32,7 @@ ul.navbar-nav li.nav-item {
 /* mobile nav menu end */
 
 /* desktop nav menu start */
-div.container-nav {
+section.container-nav {
   background-color: black;
   margin: 0;
   padding: 1em;
@@ -55,7 +55,7 @@ a.nav-link:hover {
 }
 /* desktop nav menu end */
 
-div.container-content { padding: 0; }
+section.container-content { padding: 0; }
 
 /* jumbotron start */
 div.jumbotron {
@@ -79,7 +79,7 @@ p.location {
   color: white;
 }
 
-div.panel-info {
+section.panel-info {
   display: flex;
   padding: 2em;
 }
@@ -93,18 +93,18 @@ div.link-submission {
   to { transform: scale(1.15); }
 }
 
-div.panel {
+aside.panel {
   text-align: left;
   color: white;
   margin: 1em;
 }
 
-div.panel-left {
+aside.panel-left {
   width: 50%;
   text-align: center;
 }
 
-div.panel-right {
+aside.panel-right {
   width: 40%;
   padding: 0.5em;
 }
@@ -117,7 +117,7 @@ p.panel-text {
   font-size: 2em;
 }
 
-div.panel img {
+aside.panel img {
   max-width: 100%;
   height: auto;
   margin: 0.5em;
@@ -125,7 +125,7 @@ div.panel img {
   transition: all .2s ease-in-out;
 }
 
-div.panel img:hover {
+aside.panel img:hover {
   transform: scale(1.1);
 }
 /* jumbotron end */
@@ -136,19 +136,19 @@ div.panel img:hover {
     padding-bottom: 0;
   }
 
-  div.panel-info {
+  section.panel-info {
     display: flex;
     flex-direction: column;
     position: static;
     align-items: center
   }
 
-  div.panel-right {
+  aside.panel-right {
     order: 1;
     width: 90%;
   }
 
-  div.panel-left {
+  aside.panel-left {
     order: 2;
     width: 100%;
     padding-right: 1em;
@@ -160,11 +160,11 @@ div.panel img:hover {
 }
 
 @media only screen and (max-width: 991px) {
-  div.container-nav {
+  section.container-nav {
     display: none;
   }
 
-  div.container-nav-mobile {
+  section.container-nav-mobile {
     display: inline-block;
   }
 }
