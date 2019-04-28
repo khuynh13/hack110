@@ -78,13 +78,15 @@ div.container-content {
 }
 
 .btn-primary {
-  background-color: #EF7E99;
-  border-color: #EF7E99;
+  background-color: #9AC372;
+  border-color: #9AC372;
+  color: black;
+  box-shadow: 5px 5px 12px #373637;
 }
 
 .btn-primary:hover {
-  background-color: rgb(240, 105, 136);
-  border-color: rgb(240, 105, 136);
+  background-color: #5C7544;
+  border-color: #5C7544;
 }
 
 .btn-secondary {
